@@ -10,11 +10,20 @@ Para baixar e instalar a lista de pacotes disponveis:
 sudo apt-get upgrade
 ```
 
-README para instalação do Pyenv:
+## PYENV:
 
+### Setup do Pyenv:
+
+```
+sudo apt update; sudo apt install build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev curl \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+```
+
+### README para instalação do Pyenv:
 https://github.com/pyenv/pyenv?tab=readme-ov-file#installation
 
-### Adicionando nova chave SSH no Github
+## GITHUB
 
 Gerando uma nova chave SSH:
 
